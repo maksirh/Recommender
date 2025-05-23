@@ -1,5 +1,6 @@
 from pydantic import BaseModel, Field
 
+# ------------------------------ Data models ------------------------------ #
 class UserIn(BaseModel):
     full_name: str
     username: str
